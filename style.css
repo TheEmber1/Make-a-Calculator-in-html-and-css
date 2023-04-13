@@ -1,0 +1,50 @@
+body {
+    background-color: #2f3136;
+    color: #dcddde;
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* increased font size */
+    line-height: 1.5;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input[type="button"] {
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #dcddde;
+    cursor: pointer;
+    font-size: 24px; /* increased font size */
+    font-weight: bold;
+    margin: 10px 5px; /* increased margin */
+    padding: 20px; /* increased padding */
+    text-align: center;
+    text-shadow: 1px 1px #36393f;
+    width: 70px; /* increased width */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #4c5c93;
+  }
+  
+  input[type="text"] {
+    margin-top: 50px;
+    background-color: #202225;
+    border: none;
+    border-radius: 5px;
+    color: #dcddde;
+    font-size: 28px; /* increased font size */
+    font-weight: bold;
+    padding: 20px; /* increased padding */
+    text-align: right;
+    width: 295px; /* set width to 100% */
+  }
+  
+  input[value="Clear"] {
+    background-color: #f04747;
+    width: 330px; /* set width to 100% */
+  }
+  
